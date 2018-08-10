@@ -6,6 +6,13 @@ A react component to upload and display files in a nicely formatted material-ui 
 npm install react-material-filefield
 ```
 
+## Appearance:
+```
+![Image of Empty Field](./ExampleImage.png)
+![Image of Field Filled](./ExampleImage2.png)
+![Image of Multiple Columns](./ExampleImage3.png)
+```
+
 ## Usage:
 ```
 import React from 'react';
@@ -98,3 +105,4 @@ class Example extends React.Component {
 * onAddError: PropTypes.func.isRequired, the callback that passes a message when a file fails to be added.
 * onRemoveFile: PropTypes.func.isRequired, the callback that passes the index of a file to remove.
 * (maxNumFiles): PropTypes.number, the max number of files to add/display in the field.
+```
