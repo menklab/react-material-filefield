@@ -1,0 +1,38 @@
+{
+    "name": "react-material-filefield",
+    "version": "1.0.0",
+    "description": "A react component to upload and display files in a nicely formatted material-ui grid list.",
+    "main": "dist/index.js",
+    "peerDependencies": {
+        "react": "^15.5.4"
+    },
+    "dependencies": {
+        "@material-ui/core": "^1.4.3",
+        "@material-ui/icons": "^2.0.1",
+        "material-ui-image": "^3.0.0",
+        "prop-types": "^15.6.2",
+        "react": "^15.5.4",
+        "react-dropzone": "^4.3.0"
+    },
+    "scripts": {
+        "build": "babel src --presets babel-preset-react --plugins transform-es2015-spread --out-dir dist --copy-files",
+        "prepublish": "npm run build"
+    },
+    "author": {
+        "name": "Matt Sweda",
+        "email": "msweda.developer@gmail.com"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.5.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "0.28.7",
+        "install": "^0.12.1",
+        "npm": "^6.3.0",
+        "style-loader": "0.19.0"
+    }
+}
