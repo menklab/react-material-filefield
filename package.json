@@ -1,8 +1,21 @@
 {
     "name": "react-material-filefield",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A react component to upload and display files in a nicely formatted material-ui grid list.",
     "main": "dist/index.js",
+    "keywords": [
+        "react",
+        "material",
+        "ui",
+        "material-ui",
+        "file",
+        "field",
+        "image"
+    ],
+    "repository" : { 
+        "type" : "git",
+        "url" : "https://github.com/menklab/react-material-filefield.git"
+    },
     "peerDependencies": {
         "react": "^15.5.4"
     },
