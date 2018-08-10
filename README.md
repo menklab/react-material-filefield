@@ -8,13 +8,19 @@ npm install react-material-filefield
 
 ## Appearance:
 * Empty Fields
+
 ![Image of Empty Field](./ExampleImage.png)
 
+
 * Filled fields
+
 ![Image of Field Filled](./ExampleImage2.png)
 
+
 * Filled fields, multiple columns
+
 ![Image of Multiple Columns](./ExampleImage3.png)
+
 
 ## Usage:
 ```
