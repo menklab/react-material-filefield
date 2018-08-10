@@ -1,5 +1,6 @@
 # react-material-filefield
 A react component to upload and display files in a nicely formatted material-ui grid list.
+Automatically generates previews for images files, but any file type can be listed.
 
 ## Installation:
 ```
