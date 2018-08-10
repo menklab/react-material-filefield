@@ -7,13 +7,13 @@ npm install react-material-filefield
 ```
 
 ## Appearance:
-Empty Fields
+* Empty Fields
 ![Image of Empty Field](./ExampleImage.png)
 
-Filled fields
+* Filled fields
 ![Image of Field Filled](./ExampleImage2.png)
 
-Filled fields, multiple columns
+* Filled fields, multiple columns
 ![Image of Multiple Columns](./ExampleImage3.png)
 
 ## Usage:
@@ -92,6 +92,7 @@ class Example extends React.Component {
         );
     }
 }
+```
 
 ## Props: (optional)
 * (gridListContainerStyle): PropTypes.object, styles to apply to the grid list container. Helpful to limit height and force scroll.
@@ -108,4 +109,3 @@ class Example extends React.Component {
 * onAddError: PropTypes.func.isRequired, the callback that passes a message when a file fails to be added.
 * onRemoveFile: PropTypes.func.isRequired, the callback that passes the index of a file to remove.
 * (maxNumFiles): PropTypes.number, the max number of files to add/display in the field.
-```
